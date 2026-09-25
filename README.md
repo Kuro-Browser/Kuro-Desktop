@@ -6,13 +6,10 @@
 <!-- TODO: Get a job -->
 <img src="./docs/assets/zen-dark.svg" width="100px" align="left">
 
-### `Zen Browser`
+### `Kuro Desktop`
 
-[![Downloads](https://img.shields.io/github/downloads/zen-browser/desktop/total.svg)](https://github.com/zen-browser/desktop/releases)
-[![Crowdin](https://badges.crowdin.net/zen-browser/localized.svg)](https://crowdin.com/project/zen-browser)
-[![Zen Release builds](https://github.com/zen-browser/desktop/actions/workflows/build.yml/badge.svg?branch=stable)](https://github.com/zen-browser/desktop/actions/workflows/build.yml)
 
-Zen is a firefox-based browser with the aim of pushing your productivity to a new level!
+Kuro is a firefox and zen based browser with the aim of pushing your productivity to a new level!
 
 <div flex="true">
   <a href="https://zen-browser.app/download">
