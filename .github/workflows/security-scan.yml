@@ -15,19 +15,19 @@ jobs:
         with:
           fetch-depth: 0
 
-      # 1. scans for hardcoded secrets, passwords, and API keys across all code
+      # 1. Scans for hardcoded secrets and API keys using the community action
       - name: Run Gitleaks
-        uses: gitleaks/gitleaks-action@v2
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        uses: gacts/gitleaks@v1
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
 
-      # 2. Scans C++, JavaScript, Python, and web files for vulnerabilities
+      # 2. scans C++, JavaScript, Python, and web code for vulnerabilities
       - name: Run Semgrep
         uses: semgrep/semgrep-action@v1
         with:
           config: auto
 
-      # 3. scans dependencies
+      # 3. scans filesystem, malware indicators, and third-party dependencies
       - name: Run Trivy Vulnerability Scanner
         uses: aquasecurity/trivy-action@master
         with:
