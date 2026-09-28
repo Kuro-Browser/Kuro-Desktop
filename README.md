@@ -1,49 +1,82 @@
 <!--
+   - Kuro Desktop
+   - Copyright (C) Kuro contributors
+   -
    - This Source Code Form is subject to the terms of the Mozilla Public
-   - License, v. 2.0. If a copy of the MPL was not distributed with this
-   - file, You can obtain one at http://mozilla.org/MPL/2.0/.
+   - License, v. 2.0.
    -->
-<!-- TODO: Get a job -->
+
 <img src="./kuro-dark.png" width="100px" align="left">
 
 ### `Kuro Desktop`
 
+**Kuro** is an open-source desktop web browser built on Firefox, inspired by the ideas behind modern browsers such as Zen, with a focus on customization, productivity, privacy, and a better browsing experience.
 
-Kuro is a firefox and zen based browser with the aim of pushing your productivity to a new level!
+Kuro aims to take the browser experience further with a growing collection of powerful features while keeping the interface clean, fast, and easy to use.
 
 <div flex="true">
-  <a href="https://zen-browser.app/download">
+  <a href="https://kuro.example.com/download">
     Download
   </a>
   •
-  <a href="https://zen-browser.app">
+  <a href="https://kuro.example.com">
     Website
   </a>
   •
-  <a href="https://docs.zen-browser.app">
+  <a href="https://kuro.example.com/docs">
     Documentation
   </a>
   •
-  <a href="https://zen-browser.app/release-notes/latest">
+  <a href="https://kuro.example.com/releases">
     Release Notes
   </a>
 </div>
 
+### Features
+
+*  Vertical tabs and advanced tab management
+*  Workspaces
+*  Split views
+*  Extensive customization
+*  Privacy-focused browsing
+*  Performance-focused design
+*  Built-in AI features
+*  Extension support
+*  Pinned tabs and tab groups
+*  Powerful keyboard shortcuts
+*  Notes and productivity tools
+*  Web app support
+* And much more
+
 ### Firefox Versions
 
-- [`Release`](https://zen-browser.app/download) - Is currently built using Firefox version `156.0.1`!
-- [`Twilight`](https://zen-browser.app/download?twilight) - Is currently built using Firefox version `RC 156.0.1`!
+Kuro is built on Firefox and tracks upstream Firefox releases.
+
+| Channel         | Firefox Version |
+| --------------- | --------------- |
+| **Release**     | `TBD`           |
+| **Development** | `TBD`           |
+
+Versions will be updated as new Kuro releases are published.
 
 ### Contributing
 
-If you'd like to report a bug, please do so on our [GitHub Issues page](https://github.com/zen-browser/desktop/issues/) and for feature requests, you can use [GitHub Discussions](https://github.com/zen-browser/desktop/discussions).
+Kuro is an open-source project, and contributions are welcome!
 
-Zen is an open-source project, and we welcome contributions from the community! Please take a look at the [contribution guidelines](./docs/contribute.md) before getting started!
+If you've found a bug, please open an issue on the GitHub Issues page.
 
-#### Partners
+For feature requests and larger ideas, open a discussion so they can be discussed with the community before implementation.
 
-Thanks to all the partners of Zen for their support and contributions:
+Please read the [contribution guidelines](./docs/contribute.md) before submitting changes.
 
-<a href="https://blacksmith.sh">
-  <img src="./docs/assets/blacksmith-yellow.png" width="350px"/>
-</a>
+### License
+
+Kuro Desktop is distributed under the **Mozilla Public License 2.0 (MPL-2.0)** unless otherwise specified.
+
+See the [`LICENSE`](./LICENSE) file for the complete license text.
+
+### Disclaimer
+
+Kuro is an independent project and is not affiliated with or endorsed by Mozilla or Zen Browser.
+
+
