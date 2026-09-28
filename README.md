@@ -4,7 +4,7 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/.
    -->
 <!-- TODO: Get a job -->
-<img src="./docs/assets/zen-dark.svg" width="100px" align="left">
+<img src="./kuro-dark.png" width="100px" align="left">
 
 ### `Kuro Desktop`
 
