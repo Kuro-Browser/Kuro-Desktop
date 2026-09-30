@@ -1,0 +1,6 @@
+[allowlist]
+description = "Ignore test files and mock keys"
+paths = [
+    '''src/zen/tests/.*''',
+    '''src/devtools/client/locales/.*''',
+]
