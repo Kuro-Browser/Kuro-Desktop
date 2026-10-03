@@ -6,7 +6,7 @@
    - License, v. 2.0.
    -->
 
-<img src="./kuro-dark.png" width="100px" align="left">
+<img src="./kuro-mark.svg" width="100px" align="left">
 
 ### `Kuro Desktop`
 
