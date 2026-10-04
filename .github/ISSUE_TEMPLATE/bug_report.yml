@@ -1,3 +1,4 @@
+```yaml
 name: Bug Report
 description: File a bug report
 title: "[Bug]: "
@@ -9,7 +10,6 @@ body:
     attributes:
       value: |
         <p align="center">
-
         </p>
 
         <p align="center"><em>Thanks for helping us improve Kuro Browser!</em></p>
@@ -109,7 +109,6 @@ body:
     attributes:
       label: What component is this issue related to?
       options:
-        - Other
         - Tabs
         - Tab unloading
         - Tab Groups
@@ -137,7 +136,6 @@ body:
         - AI
         - Local AI
         - Cloud AI
-        - Ollama
         - Other
     validations:
       required: true
@@ -148,3 +146,6 @@ body:
       label: Relevant log output
       description: If applicable, paste any relevant logs or error messages.
       render: shell
+```
+
+**Important:** In your original version, `Other` appeared **twice** in the `component` options. In the code above it appears **exactly once**.
