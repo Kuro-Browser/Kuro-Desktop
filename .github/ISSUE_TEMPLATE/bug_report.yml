@@ -1,18 +1,14 @@
-```yaml
 name: Bug Report
 description: File a bug report
 title: "[Bug]: "
 labels:
-  - "type:bug"
+  - type:bug
 
 body:
   - type: markdown
     attributes:
       value: |
-        <p align="center">
-        </p>
-
-        <p align="center"><em>Thanks for helping us improve Kuro Browser!</em></p>
+        Thanks for helping us improve Kuro Browser!
 
         > [!IMPORTANT]
         > - Please provide a descriptive title.
@@ -136,6 +132,7 @@ body:
         - AI
         - Local AI
         - Cloud AI
+        - Ollama
         - Other
     validations:
       required: true
@@ -146,6 +143,3 @@ body:
       label: Relevant log output
       description: If applicable, paste any relevant logs or error messages.
       render: shell
-```
-
-**Important:** In your original version, `Other` appeared **twice** in the `component` options. In the code above it appears **exactly once**.
