@@ -1,135 +1,150 @@
 name: Bug Report
 description: File a bug report
+title: "[Bug]: "
+labels:
+  - "type:bug"
+
 body:
   - type: markdown
     attributes:
       value: |
         <p align="center">
-          <a href="https://zen-browser.app">
-            <picture>
-              <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zen-browser/desktop/dev/docs/assets/zen-light.svg">
-              <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/zen-browser/desktop/dev/docs/assets/zen-dark.svg">
-              <img src="https://raw.githubusercontent.com/zen-browser/desktop/dev/docs/assets/zen-light.svg" alt="Zen Logo" width="64" height="64">
-            </picture>
-            <img src="https://raw.githubusercontent.com/zen-browser/desktop/dev/docs/assets/zen-browser.svg" alt="Zen Browser Text" width="156" height="64">
-          </a>
+
         </p>
 
-        <p align="center"><em>Thank you for filing a bug report!</em></p>
+        <p align="center"><em>Thanks for helping us improve Kuro Browser!</em></p>
 
         > [!IMPORTANT]
-        > - Please provide descriptive titles. Bad titles do more harm than good.
-        > - Please search existing issues to avoid creating duplicates.
-        > - For enhancement requests, please use GitHub Discussions.
-        > - Please fill out the template below to the best of your ability.
-        > - Please describe the issue as much as possible and provide steps to reproduce it along with visual aids if possible.
+        > - Please provide a descriptive title.
+        > - Please search existing issues before creating a new one.
+        > - Enhancement requests should be submitted through GitHub Discussions.
+        > - Please fill out the template to the best of your ability.
+        > - Include clear reproduction steps and screenshots or videos when possible.
+
   - type: checkboxes
-    id: captchas
+    id: preliminary-checks
     attributes:
       label: Preliminary Checks
-      description: Please confirm the following before submitting a bug report. This helps us triage and resolve issues more efficiently.
+      description: Please confirm the following before submitting a bug report.
       options:
         - label: I have read and understood the important section above.
           required: true
-        - label: I have searched existing issues and avoided creating duplicates.
+        - label: I have searched existing issues and this is not a duplicate.
           required: true
         - label: I am not filing an enhancement request.
           required: true
-        - label: I have checked that this issue cannot be reproduced on Mozilla Firefox.
+        - label: I have confirmed that this issue is related to Kuro Browser.
           required: true
-        - label: I have checked that this issue can be reproduced once I removed all my Mods and Custom CSS.
+        - label: I have removed my Mods, custom CSS, themes, and extensions where applicable.
           required: true
+
   - type: textarea
     id: what-happened
     attributes:
       label: What happened?
       description: Describe the bug clearly and concisely.
-      placeholder: Tell us what you see!
+      placeholder: Tell us what you see.
     validations:
       required: true
-  - type: input
+
+  - type: textarea
     id: expected-behavior
     attributes:
       label: Expected behavior
-      description: Please write a description of what was supposed to happen.
+      description: What did you expect Kuro Browser to do?
+      placeholder: Tell us what should have happened.
     validations:
       required: true
-  - type: input
+
+  - type: textarea
     id: actual-behavior
     attributes:
       label: Actual behavior
-      description: Please write a description of what actually happened.
+      description: What did Kuro Browser actually do?
+      placeholder: Tell us what actually happened.
     validations:
       required: true
+
   - type: textarea
     id: how-to-reproduce
     attributes:
       label: Steps to reproduce
-      description: Please Provide numbered steps to reproduce this issue so developers can replicate them easily.
+      description: Provide numbered steps so developers can reproduce the issue.
+      placeholder: |
+        1. Open Kuro Browser
+        2. ...
+        3. ...
     validations:
       required: true
+
   - type: textarea
     id: screenshots
     attributes:
       label: Screenshots and videos
-      description: |
-        If applicable, add screenshots or videos to help explain your problem.
+      description: If applicable, add screenshots or videos to help explain the issue.
+
   - type: input
     id: version
     attributes:
-      label: Version
-      description: What version of our software are you running? Please do not use "latest" or "newest" as version numbers. Go to `Help -> About Zen` to find the version number.
-      placeholder: 1.0.0b
+      label: Kuro Version
+      description: What version of Kuro Browser are you running? Please do not use "latest" or "newest".
+      placeholder: "0.1.0-beta.1"
     validations:
       required: true
+
   - type: dropdown
     id: platform
     attributes:
       label: What platform are you seeing the problem on?
       multiple: true
       options:
-        - Linux (AppImage)
-        - Linux (Flatpak)
-        - Linux (Tarball)
-        - macOS - aarch64
-        - macOS - Intel
-        - Windows - aarch64
         - Windows - x64
+        - Windows - ARM64
         - Other
     validations:
       required: true
+
   - type: dropdown
     id: component
     attributes:
       label: What component is this issue related to?
       options:
         - Other
+        - Tabs
+        - Tab unloading
+        - Tab Groups
+        - Workspaces
+        - Split View
         - Bookmarks
-        - Compact Mode
-        - Customizable UI / Toolbars
+        - History
+        - URL Bar
+        - Search
+        - Downloads
         - Extensions
-        - Glance
-        - Keyboard Shortcuts
-        - Localization
-        - Media Controler
-        - Mods / Themes
+        - Themes
+        - Custom CSS
+        - Settings
+        - UI
         - Performance
+        - RAM Saver
         - Privacy
         - Security
-        - Settings
-        - Split View
         - Sync
-        - Tab Folders
-        - Tab unloading
-        - Tabs
-        - URL Bar
-        - Workspaces
+        - Updates
+        - Media
+        - Keyboard Shortcuts
+        - Accessibility
+        - AI
+        - Local AI
+        - Cloud AI
+        - Ollama
+        - Other
     validations:
       required: true
 
   - type: textarea
     id: logs
     attributes:
-      label: Relevant log output if applicable
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
+      label: Relevant log output
+      description: If applicable, paste any relevant logs or error messages.
       render: shell
