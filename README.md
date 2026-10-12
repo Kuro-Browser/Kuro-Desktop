@@ -19,7 +19,7 @@ Kuro aims to take the browser experience further with a growing collection of po
     Download
   </a>
   •
-  <a href="https://kuro.browser.vercel.app">
+  <a href="https://kuro-browser.vercel.app">
     Website
   </a>
   •
