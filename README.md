@@ -15,19 +15,19 @@
 Kuro aims to take the browser experience further with a growing collection of powerful features while keeping the interface clean, fast, and easy to use.
 
 <div flex="true">
-  <a href="https://kuro.example.com/download">
+  <a href="https://kuro-browser.vercel.app/download">
     Download
   </a>
   •
-  <a href="https://kuro.example.com">
+  <a href="https://kuro.browser.vercel.app">
     Website
   </a>
   •
-  <a href="https://kuro.example.com/docs">
+  <a href="https://kuro-docs.vercel.app/docs">
     Documentation
   </a>
   •
-  <a href="https://kuro.example.com/releases">
+  <a href="https://kuro-browser.vercel.app/releases">
     Release Notes
   </a>
 </div>
