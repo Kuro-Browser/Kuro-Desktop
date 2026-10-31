@@ -69,6 +69,10 @@ For feature requests and larger ideas, open a discussion so they can be discusse
 
 Please read the [contribution guidelines](./docs/contribute.md) before submitting changes.
 
+### Donate
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/W8S728JJ96)
+
 ### License
 
 Kuro Desktop is distributed under the **Mozilla Public License 2.0 (MPL-2.0)** unless otherwise specified.
